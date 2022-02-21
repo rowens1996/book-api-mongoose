@@ -86,7 +86,7 @@ exports.update = function (req, res, next) {
     }
     (item.title = req.body.title),
       (item.author = req.body.author),
-      (item.gernre = req.body.genre),
+      (item.genre = req.body.genre),
       (item.blurb = req.body.blurb),
       (item.isbn = req.body.isbn),
       (item.read = req.body.read),
